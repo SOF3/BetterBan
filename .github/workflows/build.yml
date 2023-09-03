@@ -1,7 +1,7 @@
 name: Build phar
 on:
   push:
-    branches: [api/pm5]
+    branches: [api/pm5, ci-test/*]
 jobs:
   pharynx:
     name: build phar
